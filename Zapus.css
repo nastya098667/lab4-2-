@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(pexels-luis-gomes-166706-546819.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0);  /* Полностью прозрачный фон для всего body */
+}
+
+header {
+    background-color: rgba(244, 244, 244, 0.7);  /* Прозрачный фон для меню */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a.active, .menu a:hover {
+    color: #ff6a00;
+    font-weight: bold;
+}
+
+.logo {
+    font-weight: bold; /* Жирный шрифт для логотипа */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0); /* Прозрачный фон для основной секции */
+}
+
+.signup-form {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Прозрачный фон для формы */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.signup-form p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.signup-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6a00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #e55a00;
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: rgba(244, 244, 244, 0.7);  /* Прозрачный фон для подвала */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+

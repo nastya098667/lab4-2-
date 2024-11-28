@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(backrounddd.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(224, 224, 224, 0.8);
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu-link.active, nav a:hover {
+    color: #ff6b00; /* Цвет при активной кнопке */
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #ff6b00;
+    color: white; 
+    padding: 10px 15px; 
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block; 
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hero .text-content {
+    position: relative;
+    max-width: 600px;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 5px 0 15px;
+}
+
+.input-container {
+    display: flex; 
+    margin-top: 10px;
+}
+
+.input-field {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+    width: calc(100% - 120px);
+    font-size: 16px;
+}
